@@ -35,6 +35,9 @@ transform: scale(1.1);
 <input type="file" id="file-input">
 <h1>ファイル共有</h1>
 <button type="button" id="file-btn">ファイルを共有する</button>
+<h1>文章を共有する</h1>
+<input type="text" placeholder="ここに文章を入れて下さい。" id="text-input">
+<button type"button" id="text-btn">文章を共有する</button>
 <h1>このページを共有する</h1>
 <button type="button" id="link-btn">このページのアドレスをシェアする</button>
 <script>
@@ -56,6 +59,12 @@ link_btn.addEventListener('click', async () => {
     console.error(error);
   }
 });
+
+const text-btn = document.getElementById('text-btn');
+const text-input = document.getElementById('text-input');
+text-btn.addEventListener('click', async () => {
+ try {
+ 
 </script>
 </body>
 </html>
