@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;500;700&display=swap");
+html, body {
+  font-family: 'Zen Maru Gothic';
+  font-size: 16px;
+    background-image: url(https://min-chi.material.jp/mc/materials/background-c/levee_trail/_levee_trail_1.jpg);    /* 背景画像指定 */
+    background-repeat: no-repeat;
+    background-position:60% 60%;
+    background-size:cover;
+}
+
+button[type="button"]｛
+background-color: #dcdcdca4;
+border: none;
+border-radius: 50px;
+outline: none;
+transition-duration: .4s;
+｝
+
+button[type="button"]:hover｛
+background: #747373b9;
+transform: scale(1.1);
+｝
